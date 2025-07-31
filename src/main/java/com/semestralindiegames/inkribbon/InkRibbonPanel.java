@@ -61,13 +61,9 @@ public class InkRibbonPanel {
             }
         });
 
-        newEntryButton.addActionListener(e -> {
-            Messages.showInfoMessage("Crear entrada del día (falta implementar)", "Nueva Bitácora");
-        });
+        newEntryButton.addActionListener(e -> Messages.showInfoMessage("Crear entrada del día (falta implementar)", "Nueva Bitácora"));
 
-        saveButton.addActionListener(e -> {
-            Messages.showInfoMessage("Guardar contenido (falta implementar)", "Guardar Entrada");
-        });
+        saveButton.addActionListener(e -> Messages.showInfoMessage("Guardar contenido (falta implementar)", "Guardar Entrada"));
     }
 
     public JComponent getContent() {
