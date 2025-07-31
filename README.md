@@ -6,97 +6,98 @@
 
 ---
 
-En medio del caos del código, entre bugs desconocidos y builds que fallan sin razón, hay un lugar seguro.  
-**InkRibbon** es tu máquina de escribir. Tu único método de salvación.
+Amid the chaos of code, between unknown bugs and builds that fail without reason, there is a safe place.  
+**InkRibbon** is your typewriter. Your only method of salvation.
 
-Este plugin para IntelliJ IDEA está inspirado en la mítica experiencia de guardado de *Resident Evil 2*.  
-En lugar de registrar tu supervivencia frente a zombis, **registra tu progreso como desarrollador**.  
-Entradas Markdown. Checkpoints mentales. Reflexiones antes de volver al campo de batalla.
+This plugin for IntelliJ IDEA is inspired by the legendary save system from *Resident Evil 2*.  
+Instead of recording your survival against zombies, **it records your progress as a developer**.  
+Markdown entries. Mental checkpoints. Reflections before going back to battle.
 
-🕯️ **Encendé tu lámpara. Sentate. Escribí. Y guardá.**
-
----
-
-**InkRibbon** te permite:
-
-- Seleccionar una carpeta donde se almacenarán todas tus entradas.
-- Crear archivos `.md` con la fecha del día, como si fueran partidas salvadas.
-- Escribir tu bitácora en una interfaz silenciosa y sin distracciones.
-- Mantener tu progreso **dentro del plugin**, como si nunca hubieras salido del refugio.
-
-> Porque todo desarrollador necesita su propia **Safe Room**.
+🕯️ **Light your lamp. Sit down. Write. And save.**
 
 ---
 
-## ✨ Características
+**InkRibbon** lets you:
 
-- 🗂️ Selección de carpeta donde se guardarán todas tus bitácoras.
-- 📅 Botón para crear automáticamente un archivo Markdown con la fecha actual (`YYYY-MM-DD.md`).
-- 📝 Editor de texto integrado dentro de la ToolWindow.
-- 💾 Guardado persistente del contenido con un solo clic.
-- 🧘‍♂️ Panel simple, limpio, sin distracciones: escribí y volvé al código.
+- Select a folder where all your journal entries will be stored.
+- Create `.md` files automatically named with the current date, just like save slots.
+- Write your journal in a quiet, distraction-free interface.
+- Keep your progress **within the plugin**, as if you'd never left the safe room.
 
----
-
-## 📸 Captura de pantalla (WIP)
-
-> _Próximamente_
+> Because every developer needs their own **Safe Room**.
 
 ---
 
-## 🚀 Instalación
+## ✨ Features
 
-### Desde IntelliJ IDEA (Marketplace)
+- 🗂️ Choose a target folder to store your Markdown entries.
+- 📅 Automatically create a daily Markdown file (`YYYY-MM-DD.md`).
+- 📝 Built-in text editor inside the ToolWindow.
+- 💾 One-click persistent save of your writing.
+- 🧘‍♂️ Simple, clean panel: write, reflect, and return to code.
 
-1. Abrí **Settings > Plugins**
-2. Buscá `InkRibbon`
-3. Instalá y reiniciá IntelliJ
+---
 
-### Desde archivo `.zip`
+## 📸 Screenshot (WIP)
 
-1. Cloná o descargá este repositorio
-2. Ejecutá el plugin en modo desarrollo o generá el `.zip` con:
+> _Coming soon_
+
+---
+
+## 🚀 Installation
+
+### From IntelliJ IDEA Marketplace
+
+1. Open **Settings > Plugins**
+2. Search for `InkRibbon`
+3. Install and restart IntelliJ
+
+### From `.zip` file
+
+1. Clone or download this repository
+2. Run the plugin in dev mode or build it using:
    ```bash
    ./gradlew buildPlugin
    ```
-3. En IntelliJ: **Settings > Plugins > Install plugin from disk**
+3. In IntelliJ: **Settings > Plugins > Install plugin from disk**
 
 ---
 
-## 🗃️ Uso
+## 🗃️ Usage
 
-1. Abrí la ToolWindow "InkRibbon" desde la barra lateral.
-2. Seleccioná la carpeta donde querés guardar tus bitácoras (`~/Bitacoras` por ejemplo).
-3. Hacé clic en **"Nueva Bitácora"** — se creará un archivo `YYYY-MM-DD.md` en la carpeta elegida.
-4. Escribí tu entrada en el editor integrado.
-5. Presioná **"Guardar entrada"** y seguí con tu día.
+1. Open the ToolWindow named "InkRibbon" from the side panel.
+2. Select the folder where you'd like to store your journal entries (e.g. `~/Bitacoras`)
+3. Click **"New Entry"** — a `YYYY-MM-DD.md` file will be created.
+4. Write your entry in the built-in editor.
+5. Click **"Save"** and continue your day.
 
-> Las bitácoras se mantienen dentro del panel del plugin, sin abrir archivos externos.
-
----
-
-## 🧪 Roadmap (Ideas Futuras)
-
-- [ ] Historial de entradas recientes
-- [ ] Lista navegable de bitácoras
-- [ ] Atajos de teclado
-- [ ] Soporte para tags o etiquetas
-- [ ] UI temática al estilo Resident Evil (modo oscuro Safe Room)
-- [ ] Sincronización opcional vía Git, Dropbox o similar
+> Entries are handled inside the plugin panel. No files are opened in the editor.
 
 ---
 
-## ❤️ Créditos
+## 🧪 Roadmap (Planned)
 
-> Este plugin es libre y gratuito, pero agradeceríamos que incluyas una referencia visible a **InkRibbon** si lo usás en proyectos públicos o distribuidos.
-
-✨ _Creado con [InkRibbon](https://github.com/SemestralIndieGames/inkribbon-intellij-plugin) por [Semestral Indie Games](https://github.com/SemestralIndieGames)_
+- [ ] Recent entries history
+- [ ] Navigable list of past entries
+- [ ] Keyboard shortcuts
+- [ ] Tagging and categorization support
+- [ ] Resident Evil themed dark UI (Safe Room mode)
+- [ ] Optional sync via Git, Dropbox, etc.
 
 ---
 
-## 📄 Licencia
+## ❤️ Credits
 
-Este proyecto está licenciado bajo la licencia MIT.  
-Ver el archivo [`LICENSE`](./LICENSE) para más detalles.
+> This plugin is free and open source. If you use **InkRibbon** in public or distributed projects, we kindly ask you to include a visible credit.
+
+✨ _Created with [InkRibbon](https://github.com/SemestralIndieGames/inkribbon-intellij-plugin)  
+by [Semestral Indie Games](https://github.com/SemestralIndieGames)_
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+See the [`LICENSE`](./LICENSE) file for details.
 
 ---
