@@ -1,0 +1,50 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.semestralindiegames.inkribbon-intellij-plugin</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Inkribbon</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor url="https://www.semestralindiegames.site">Semestral Indie Games</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    <h2>🖋️ InkRibbon — IntelliJ Plugin</h2>
+    <blockquote>
+      <em>"A lone typewriter sits quietly in the corner.<br>
+      Its ink ribbon is intact."</em><br>
+      — <strong>Resident Evil 2</strong>
+    </blockquote>
+    <p>Amid the chaos of code, between unknown bugs and builds that fail without reason, there is a safe place.<br>
+    <strong>InkRibbon</strong> is your typewriter. Your only method of salvation.</p>
+    <p>This plugin for IntelliJ IDEA is inspired by the legendary save system from <em>Resident Evil 2</em>.<br>
+    Instead of saving your survival, it lets you save your <strong>developer progress</strong>.</p>
+    <ul>
+      <li>🗂️ Choose a folder to store your Markdown entries</li>
+      <li>📅 Automatically create <code>YYYY-MM-DD.md</code></li>
+      <li>📝 Built-in editor inside the ToolWindow</li>
+      <li>💾 One-click save</li>
+      <li>🧘‍♂️ Clean, quiet interface</li>
+    </ul>
+  ]]></description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+
+        <toolWindow id="InkRibbon"
+                    factoryClass="com.semestralindiegames.inkribbon.InkRibbonToolWindowFactory"
+                    anchor="right"
+                    icon="/META-INF/pluginIcon.svg"
+                    canCloseContents="false"/>
+    </extensions>
+
+</idea-plugin>
