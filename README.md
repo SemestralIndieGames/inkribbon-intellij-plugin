@@ -1,12 +1,30 @@
 # 🖋️ InkRibbon — IntelliJ Plugin
 
-> _"You can't save your progress without an Ink Ribbon."_  
-> — Resident Evil
+> _"A lone typewriter sits quietly in the corner.  
+> Its ink ribbon is intact."_  
+> — *Resident Evil 2*
 
-**InkRibbon** es un plugin para IntelliJ IDEA inspirado en la clásica máquina de escribir de *Resident Evil 2*.  
-Diseñado para desarrolladores indie, te permite guardar tu progreso diario en forma de bitácoras Markdown, directamente desde el entorno de desarrollo.
+---
 
-Convertí tu IntelliJ en una **Safe Room**: pausá, escribí, registrá.
+En medio del caos del código, entre bugs desconocidos y builds que fallan sin razón, hay un lugar seguro.  
+**InkRibbon** es tu máquina de escribir. Tu único método de salvación.
+
+Este plugin para IntelliJ IDEA está inspirado en la mítica experiencia de guardado de *Resident Evil 2*.  
+En lugar de registrar tu supervivencia frente a zombis, **registra tu progreso como desarrollador**.  
+Entradas Markdown. Checkpoints mentales. Reflexiones antes de volver al campo de batalla.
+
+🕯️ **Encendé tu lámpara. Sentate. Escribí. Y guardá.**
+
+---
+
+**InkRibbon** te permite:
+
+- Seleccionar una carpeta donde se almacenarán todas tus entradas.
+- Crear archivos `.md` con la fecha del día, como si fueran partidas salvadas.
+- Escribir tu bitácora en una interfaz silenciosa y sin distracciones.
+- Mantener tu progreso **dentro del plugin**, como si nunca hubieras salido del refugio.
+
+> Porque todo desarrollador necesita su propia **Safe Room**.
 
 ---
 
@@ -54,21 +72,6 @@ Convertí tu IntelliJ en una **Safe Room**: pausá, escribí, registrá.
 5. Presioná **"Guardar entrada"** y seguí con tu día.
 
 > Las bitácoras se mantienen dentro del panel del plugin, sin abrir archivos externos.
-
----
-
-## 📐 Estructura del Proyecto
-
-```
-inkribbon-intellij-plugin/
-├── src/
-│   ├── main/java/com/semestralindiegames/inkribbon/
-│   │   ├── InkRibbonToolWindowFactory.java
-│   │   └── InkRibbonPanel.java
-│   └── resources/META-INF/plugin.xml
-├── build.gradle.kts
-└── LICENSE
-```
 
 ---
 
