@@ -1,0 +1,16 @@
+{
+  "extraKnownMarketplaces": {
+    "baier-systems": {
+      "source": {
+        "source": "github",
+        "repo": "baier-systems/baier-systems-claude-marketplace"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "baier-harness@baier-systems": true,
+    "baier-issues@baier-systems": true,
+    "baier-statusline@baier-systems": true
+  }
+}
